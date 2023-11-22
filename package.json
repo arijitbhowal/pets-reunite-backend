@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm i",
-    "start": "react-scripts start",
+    "start": "serve -s build -l 5000",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.js"
   },
@@ -21,6 +21,7 @@
     "mongoose": "^8.0.0",
     "multer": "^1.4.5-lts.1",
     "nodemon": "^3.0.1",
+    "serve": "^14.2.1",
     "uuid": "^9.0.1"
   }
 }
