@@ -152,7 +152,9 @@ app.delete("/api/pets/:id", async (req, res) => {
   }
 });
 
-
+app.get('/', (req, res) => {
+  res.send('Welcome to the Pets Reunite API'); // You can customize this message
+});
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
