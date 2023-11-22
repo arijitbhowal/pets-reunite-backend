@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 
 
 require("./db/conn");
-const port = process.env.PORT || 5000;
+//const port = process.env.PORT || 5000;
 
 const Pet = require("./models/pet.model");
 
