@@ -1,0 +1,4 @@
+version: 1
+buildCommand: npm run build
+startCommand: npm run dev
+nodeVersion: 14
