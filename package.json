@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm i",
+    "build": "npm run build:client",
     "start": "serve -s build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/app.js"
